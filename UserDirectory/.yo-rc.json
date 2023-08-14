@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "user-directory",
+    "libraryId": "630ea969-63c0-4f1a-9ddf-ebb340588783",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "UserDirectory",
+    "solutionShortDescription": "UserDirectory description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

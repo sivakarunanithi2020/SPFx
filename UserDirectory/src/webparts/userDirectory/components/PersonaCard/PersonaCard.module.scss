@@ -1,0 +1,39 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.personaContainer {
+  display: inline-block;
+  //display: table;
+  margin-top: 15px;
+  margin-right: 10px;
+  min-width: 350px;
+  max-width: 350px;
+  vertical-align: top;
+ // overflow: hidden;
+}
+.documentCard {
+  border-color: $ms-color-themeDark;
+  border-top-width: 5px;
+  width: 100%;
+  //min-width: 300px;
+  height: 120px;
+}
+.persona {
+  padding: 15px;
+}
+
+.bottomColor {
+  background-color: $ms-color-themeDark;
+  height: 5px;
+  margin-top: 10;
+  width: 100%;
+}
+
+.textOverflow {
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
